@@ -218,10 +218,9 @@ def start(update: Update, context: CallbackContext):
                              url="https://t.me/OnePunchUpdates/29")
                      ],
                      [
-                         InlineKeyboardButton(
-                             text="🗄 Source code",
-                             url="https://github.com/AnimeKaizoku/SaitamaRobot")
-                     ]]))
+
+
+
     else:
         update.effective_message.reply_text(
             "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
